@@ -4,10 +4,10 @@ import Nav from "./Nav";
 
 const MainHeader = styled.header`
   height: 100px;
-  background: green;
-  //   display: flex;
-
-  //   align-items: center;
+  background: #f89156;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `;
 
 export default class Header extends Component {

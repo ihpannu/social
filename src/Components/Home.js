@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import Header from "../Containers/Header";
+import Body from "../Containers/Body";
 
 const HomePage = styled.div`
-  max-width: 960px;
   height: 100vh;
-  margin: auto;
+
   background: #fdebd4;
 `;
 
@@ -14,6 +14,7 @@ class Home extends Component {
     return (
       <HomePage>
         <Header />
+        <Body />
       </HomePage>
     );
   }

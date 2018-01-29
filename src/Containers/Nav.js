@@ -3,10 +3,10 @@ import styled from "styled-components";
 // import { Route, Link } from "react-router-dom";
 
 const MainNav = styled.nav`
-  background: #f89156;
+  //   background: #f89156;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 `;
 
