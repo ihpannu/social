@@ -5,7 +5,7 @@ import SignUpForm from "./SignUpForm";
 const MainBody = styled.div`
   max-width: 960px;
   margin: auto;
-  background: yellow;
+
   height: 80vh;
   display: flex;
   flex-direction: column;

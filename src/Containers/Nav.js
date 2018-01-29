@@ -3,7 +3,6 @@ import styled from "styled-components";
 // import { Route, Link } from "react-router-dom";
 
 const MainNav = styled.nav`
-  //   background: #f89156;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -19,8 +18,10 @@ const MainTitle = styled.h1`
 const Navigation = styled.ul`
   margin-right: 10px;
   display: flex;
+  color: #fff;
   li {
     margin: 0 10px;
+    cursor: pointer;
   }
 `;
 

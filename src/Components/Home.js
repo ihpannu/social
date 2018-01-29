@@ -5,8 +5,7 @@ import Body from "../Containers/Body";
 
 const HomePage = styled.div`
   height: 100vh;
-
-  background: #fdebd4;
+  background: #f9f9f9;
 `;
 
 class Home extends Component {

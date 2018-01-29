@@ -4,7 +4,7 @@ import Nav from "./Nav";
 
 const MainHeader = styled.header`
   height: 100px;
-  background: #f89156;
+  background: #2b9388;
   display: flex;
   flex-direction: column;
   justify-content: center;
