@@ -6,7 +6,11 @@ const MainBody = styled.div`
   max-width: 960px;
   margin: auto;
   background: yellow;
-  height: 100vh;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `;
 
 export default class Body extends Component {
