@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
+import Header from "../Containers/Header";
 
 const HomePage = styled.div`
   max-width: 960px;
@@ -8,17 +9,11 @@ const HomePage = styled.div`
   background: #fdebd4;
 `;
 
-const Header = styled.header`
-  background: green;
-`;
-
 class Home extends Component {
   render() {
     return (
       <HomePage>
-        <Header>
-          <h1 className="App-title">Social</h1>
-        </Header>
+        <Header />>
       </HomePage>
     );
   }
