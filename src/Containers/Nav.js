@@ -5,18 +5,23 @@ import styled from "styled-components";
 const MainNav = styled.nav`
   background: #f89156;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
 `;
 
 const MainTitle = styled.h1`
   font-size: 1.5em;
   color: #fff;
+  margin-left: 10px;
 `;
 
 const Navigation = styled.ul`
+  margin-right: 10px;
   display: flex;
-  justify-content: space-between;
+  li {
+    margin: 0 10px;
+  }
 `;
 
 export default class Nav extends Component {

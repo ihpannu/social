@@ -5,9 +5,9 @@ import Nav from "./Nav";
 const MainHeader = styled.header`
   height: 100px;
   background: green;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  //   display: flex;
+
+  //   align-items: center;
 `;
 
 export default class Header extends Component {
