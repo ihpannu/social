@@ -1,16 +1,25 @@
 import React, { Component } from "react";
+import styled from "styled-components";
+
+const HomePage = styled.div`
+  max-width: 960px;
+  height: 100vh;
+  margin: auto;
+  background: #fdebd4;
+`;
+
+const Header = styled.header`
+  background: green;
+`;
 
 class Home extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <HomePage>
+        <Header>
+          <h1 className="App-title">Social</h1>
+        </Header>
+      </HomePage>
     );
   }
 }
